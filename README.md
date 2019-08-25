@@ -13,7 +13,8 @@ Svaki plesač ima svoje mere u koordinatnom sistemu oblika (širina, dubina) koj
  Plesači su predstavljeni loptama i numerisani brojevima od 1 do 8.
  A veličina je 8x8 metara.
  Centar podijuma je oynačen krstićem i nalayi se na meri (0,0).
- Program se završava pritiskom na taster 'esc'.
+ Program se resetuje (postavlja se sve na početno stanje, uključujući i brisanje do tada postavljenih mera) pritiskom ka taster 'R', a završava se pritiskom na taster 'esc'.
+
 
 * Kretanje         
 
@@ -40,11 +41,18 @@ Svaki plesač ima svoje mere u koordinatnom sistemu oblika (širina, dubina) koj
   Primer fajla:
   
    ![](https://github.com/MATF-RG18/RG101-choreo-maker/blob/master/screenshots/izvestaj_8.png)
+  Nakon pokretanja programa sa opcijom za učitavanje linija moguće je odmah pokrenuti simulaciju.
   
   U ovakvom formatu su i ispisane mere ukoliko korisnik želi da ih sačuva, što može uraditi pritiskom na taster 'S'.
   Mere se takodje čuvaju u fajlu lines.txt, a pri čuvanju sadržaj fajla se briše i upisuju nove mere.
   Moguće na postojeće mere pročitane iz fajla dodati nove, tako što se plesači postave na željeno mesto i pritisne taster 'n', uobičajen postupak.
+  Poželjno je dodavati nove mere nakon završetka simulacije, kako bi bilo jasnije gde se koji plesač nalazi.
 
 
+
+**Mali primer rada programa**
+
+
+Malo detaljniji prikaz funkcionalnosti se nalazi na wiki stranici. :)
  
 
