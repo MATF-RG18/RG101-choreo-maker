@@ -51,7 +51,8 @@ Svaki plesač ima svoje mere u koordinatnom sistemu oblika (širina, dubina) koj
 
 
 **Mali primer rada programa**
-
+  
+  [Primer](https://github.com/MATF-RG18/RG101-choreo-maker/blob/master/videos/primer.avi)
 
 Malo detaljniji prikaz funkcionalnosti se nalazi na wiki stranici. :)
  
