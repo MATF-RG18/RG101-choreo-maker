@@ -3,22 +3,48 @@
 Choreo Maker je biti napravljen po ugledu na nemački program Choreo Maker, koji se koristi u formacijkom plesu.
 Cilj je da simulira kretanje plesača po podijumu, ne samu koreografiju, nego kako izgleda kada više plesača menja mesto.
 Grupa plesača u toku koreografije, posmatrano sa visine, stoji u odredjenom obliku, a svaki takav oblik se zove linija, tako da Choreo Maker treba da simulira promenu linija u jednoj koreografiji.
+Svaki plesač ima svoje mere u koordinatnom sistemu oblika (širina, dubina) koje odredjuju njegovo kretanje kroz koreografiju.
 
 
 
 **Korišćenje**
 
-* Kretanje
-  Plesači su predstavljeni loptama i numerisani brojevima od 1 do 8.
-  Pre pomeranja igrača neophodno je na tastaturi izabrati broj plesača kojeg želite da pomerate.
-  
 
+ Plesači su predstavljeni loptama i numerisani brojevima od 1 do 8.
+ A veličina je 8x8 metara.
+ Centar podijuma je oynačen krstićem i nalayi se na meri (0,0).
+ Program se završava pritiskom na taster 'esc'.
+
+* Kretanje         
+
+  Pre pomeranja igrača neophodno je na tastaturi izabrati broj plesača kojeg želite da pomerate.
+  Nakon toga plesač se može pomerati preko tastera 'f'(napred), 'b'(nazad), 'l'(levo) i 'd'(desno) i svaki put za pola metra.
+  Nakon postvaljnja svakog plesača na svoje mesto, mere se čuvaju pritiskom na taster 'n'.
+  Neophodno je da pri svakoj novoj liniji (meri) plesač promeni poziciju, tj. ne može ostati u mestu.
+  
 * Simulacija
 
+  Simulacija se pokreće pritiskom na taster 'g', a zaustavlja na taster 's'.
+  
+  
 * Kamera
 
-* Čitanje i čuvanje linija
+  Kamera se pokreće pritiskom na taster 'p'(gore), 'P'(dole), 't'(desno) i 'T'(levo).
+  Ne može se pomerati levo od centra, niti dole od centra (tako da pogled bude ispod podijuma).
 
-* Pokretanje programa 
+* Čitanje i čuvanje mera
 
+  Ukolko korisnik želi da učita mere, neophodno je da pri pokretanju programa navede ociju -r.
+  Linije koje želi da učita treba da budu zapisane u fajlu lines.txt tako da se u svakoj liniji fajla nalaze mere svih 8 plesača za jednu liniju, gde prvo ide širina a zatim dubina, i svaki par koordinata je odvojen zarezom.
+  
+  Primer fajla:
+  
+  
+  
+  U ovakvom formatu su i ispisane mere ukoliko korisnik želi da ih sačuva, što može uraditi pritiskom na taster 'S'.
+  Mere se takodje čuvaju u fajlu lines.txt, a pri čuvanju sadržaj fajla se briše i upisuju nove mere.
+  Moguće na postojeće mere pročitane iz fajla dodati nove, tako što se plesači postave na željeno mesto i pritisne taster 'n', uobičajen postupak.
+
+
+ 
 
