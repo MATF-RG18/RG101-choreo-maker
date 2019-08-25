@@ -2,7 +2,6 @@
 #include<stdlib.h>
 #include<string.h>
 #include<GL/glut.h>
-#include <math.h>
 #define NUM_OF_LINES 30
 
 
