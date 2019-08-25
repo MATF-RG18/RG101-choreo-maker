@@ -39,7 +39,7 @@ Svaki plesač ima svoje mere u koordinatnom sistemu oblika (širina, dubina) koj
   
   Primer fajla:
   
-  
+   ![](https://github.com/MATF-RG18/RG101-choreo-maker/blob/master/screenshots/izvestaj_8.png)
   
   U ovakvom formatu su i ispisane mere ukoliko korisnik želi da ih sačuva, što može uraditi pritiskom na taster 'S'.
   Mere se takodje čuvaju u fajlu lines.txt, a pri čuvanju sadržaj fajla se briše i upisuju nove mere.
