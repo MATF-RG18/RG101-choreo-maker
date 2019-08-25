@@ -16,24 +16,24 @@ Svaki plesač ima svoje mere u koordinatnom sistemu oblika (širina, dubina) koj
  Program se resetuje (postavlja se sve na početno stanje, uključujući i brisanje do tada postavljenih mera) pritiskom ka taster 'R', a završava se pritiskom na taster 'esc'.
 
 
-* Kretanje         
+* _Kretanje_         
 
   Pre pomeranja igrača neophodno je na tastaturi izabrati broj plesača kojeg želite da pomerate.
   Nakon toga plesač se može pomerati preko tastera 'f'(napred), 'b'(nazad), 'l'(levo) i 'd'(desno) i svaki put za pola metra.
   Nakon postvaljnja svakog plesača na svoje mesto, mere se čuvaju pritiskom na taster 'n'.
   Neophodno je da pri svakoj novoj liniji (meri) plesač promeni poziciju, tj. ne može ostati u mestu.
   
-* Simulacija
+* _Simulacija_
 
   Simulacija se pokreće pritiskom na taster 'g', a zaustavlja na taster 's'.
   
   
-* Kamera
+* _Kamera_
 
   Kamera se pokreće pritiskom na taster 'p'(gore), 'P'(dole), 't'(desno) i 'T'(levo).
   Ne može se pomerati levo od centra, niti dole od centra (tako da pogled bude ispod podijuma).
 
-* Čitanje i čuvanje mera
+* _Čitanje i čuvanje mera_
 
   Ukolko korisnik želi da učita mere, neophodno je da pri pokretanju programa navede ociju -r.
   Linije koje želi da učita treba da budu zapisane u fajlu lines.txt tako da se u svakoj liniji fajla nalaze mere svih 8 plesača za jednu liniju, gde prvo ide širina a zatim dubina, i svaki par koordinata je odvojen zarezom.
